@@ -1,22 +1,23 @@
 {
-  "name": "webapp-nodejs",
-  "version": "0.0.0",
-  "private": true,
+  "name": "devops-node-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-543/Devops-node-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-543/Devops-node-repo/issues"
+  },
+  "homepage": "https://github.com/deepak-543/Devops-node-repo#readme",
   "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "~4.13.1",
-    "jade": "~1.11.0",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "express": "^4.18.2"
   }
 }
