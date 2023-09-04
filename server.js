@@ -13,7 +13,7 @@ app.use(cors());
 
 //registering routes
 app.get("/", (req, res) => {
-  res.status(200).send("Weather API is Running!");
+  res.status(200).send("Weather APII is Running!");
 });
 
 //fetching weather forecast for a particular city
