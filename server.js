@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 //fetching weather forecast for a particular city
 app.get("/weather", async (req, res) => {
     if (!req.query.city) {
-      res.status(404).json("City is missing");
+      res.status(404).json("City is missing!");
     } else {
       let city = req.query.city;
       const response = await fetch(
